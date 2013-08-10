@@ -21,6 +21,7 @@ my @modules = qw(
   Test::More
   Test::Most
   Types::Standard
+  blib
   namespace::clean
   perl
   sanity
