@@ -10,18 +10,17 @@ use File::Spec::Functions;
 use List::Util qw/max/;
 
 my @modules = qw(
-  Capture::Tiny
+  IO::Handle
+  IPC::Open3
   List::AllUtils
   Module::Runtime
   Moo
-  MooX::ClassAttribute
   String::Escape
   Sub::Name
   Test::CheckDeps
   Test::More
   Test::Most
   Types::Standard
-  blib
   namespace::clean
   perl
   sanity
